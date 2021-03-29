@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="test_container">
+        <h1>Test de calcul mental</h1>
+        <h3>Calcule mentalement et écris ta réponse</h3>
+        <div id="form_container">
+            <form>
+                <div id="table_3">
+                    <div class="left">
+                        <p class="line">A calculer</p>
+                        <p class="line">Réponse</p>
+                        <p class="line">Message</p>
+                        <p class="line">Résultat</p>
+                        <p class="line">Pour recommencer</p>
+                    </div>
+                    <div class="right">
+                        <div class="line"><input id="calcul" type="text" placeholder="Inserez une expression"></div>
+                        <div class="line"><input id="reponse" type="text" placeholder="Proposez une réponse"></div>
+                        <div class="line"><textarea id="message"></textarea></div>
+                        <div class="line"><button type="button" onclick="getResult()">Resultat</button></div>
+                        <div class="line">
+                            <div class="line" id="effTest_2">
+                                <button type="reset" onclick="getDefault()">Effacer</button>
+                                <button id="tester"  type="button" onclick="eval()">Tester</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/exercise2.js"></script>
+</body>
+
+</html>

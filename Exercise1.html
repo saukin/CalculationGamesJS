@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/exercise1.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="arithmetic_container">
+        <form>
+            <div id="header">
+                <div class="left" id="l_header">
+                    <h4 class="line">Nombre 1</h4>
+                    <input id="num_1" class="line" type="text">
+                </div>
+                <div class="right" id="r_header">
+                    <h4 class="line">Nombre 2</h4>
+                    <input id="num_2" class="line" type="text">
+                </div>
+            </div>
+            <div id="table">
+                <div class="left">
+                    <p class="line">La somme vaut</p>
+                    <p class="line">Le difference vaut</p>
+                    <p class="line">Le produit vaut</p>
+                    <p class="line">Le quotient vaut</p>
+                    <p class="line">La reste vaut</p>
+                </div>
+                <div class="right">
+                    <div class="line"><textarea id="sum_value"></textarea></div>
+                    <div class="line"><textarea id="difference_value"></textarea></div>
+                    <div class="line"><textarea id="product_value"></textarea></div>
+                    <div class="line"><textarea id="quotien_value"></textarea></div>
+                    <div class="line"><textarea id="remainder_value"></textarea></div>
+                </div>
+            </div>
+            <div id="effTest_ex1">
+                <button type="reset" onclick="effacer()">Effacer</button>
+                <button type="button" onClick="calculer()">Calculer</button>
+           </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

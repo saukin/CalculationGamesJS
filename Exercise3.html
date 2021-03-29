@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <audio id="boom" type="audio/ogg" src="images/boom.ogg"></audio>
+    <div id="test_container">
+        <h1>Découvrez le nombre mystérieux</h1>
+        <h3>Vous avex 7 essais pour trouver le nombre choisi par l'ordinateur, au hasard entre 1 et 100</h3>
+        <div id="form_container_3">
+            <form>
+                <div class="line" id="effTest_3">
+                    <button type="button" onclick="getDefault()">Nouveau jeu</button>
+                    <button type="reset" onclick="getRidOfIt()">Quitter</button>
+                    <button type="button" onclick="getAnswer()">Réponse</button>
+                    <button type="button" class="valider" onclick="eval()">Valider</button>
+                </div>
+                <div id="table_3">
+                    <div class="left">
+                        <p class="line">Proposition</p>
+                        <p class="line"># essai</p>
+                        <p class="line">Message</p>
+                        <p class="line">Réponse</p>
+                    </div>
+                    <div class="right">
+                        <div class="line"><input id="proposition" type="text"></div>
+                        <div class="line"><textarea id="essay"></textarea></div>
+                        <div class="line"><textarea id="message"></textarea></div>
+                        <div class="line"><textarea id="reponse"></textarea></div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/exercise3.js"></script>
+</body>
+
+</html>

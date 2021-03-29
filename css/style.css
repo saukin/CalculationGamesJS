@@ -1,0 +1,202 @@
+/* =========  RESET =============*/ 
+
+html, body {
+    height: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* =========== END RESET ===========*/
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h3 {
+    /* border: solid yellow 1px; */
+    text-align: center;
+    height: 15%;
+}
+
+
+p {
+    width: 100%;
+    text-align: right;
+    justify-content: center;
+    padding-right: 10%;
+}
+
+#form_container, #form_container_3 {
+    height: 70%;
+    width: 100%;
+}
+
+form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    /* border: solid violet 1px; */
+}
+
+#form_container_3 form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* border: solid violet 1px; */
+}
+
+#arithmetic_container {
+    width: 50%;
+    height: 50%;
+    border: ridge lightgray 6px ;
+    /* padding: 15px; */
+}
+
+#arithmetic_container form #table p.line {
+    padding-left: 10%;
+    justify-content: left;
+    /* border: solid purple 1px; */
+}
+
+#test_container {
+    width: 50%;
+    height: 50%;
+    background-color: lightskyblue;
+    border: ridge lightgray 6px ;
+    padding: 15px;
+}
+
+#header {
+    /* border: solid purple 1px; */
+    display: flex;
+    width: 100%;
+    height: 15%;
+}
+
+#l_header, #r_header {
+    /* border: solid red 1px; */
+    height: 100%;
+    width: 50%;
+    background-color: lightskyblue;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#l_header input, #r_header input,
+#l_header h4, #r_header h4 {
+    width: 40%;
+    /* border: solid black 1px; */
+    justify-content: flex-start;
+}
+
+#table, #table_3 {
+    width: 100%;
+    height: 70%;
+    display: flex;
+}
+
+
+.left, .right {
+    /* border: solid green 1px; */
+    display: flex;
+    flex-flow: column;
+    width: 50%;
+}
+
+#table_3 .left {
+    width: 30%;
+}
+
+#table_3 .right {
+    width: 70%;
+}
+
+.line {
+    /* border: solid pink 1px; */
+    height: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.left .line {
+    justify-content: flex-end;
+}
+
+input {
+    height: 70%;
+}
+
+textarea {
+    text-align: center;
+    padding-top: .5em;
+}
+
+#calcul {
+    width: 80%;
+}
+
+#reponse {
+    width: 90%;
+}
+
+#proposition, #essay {
+    width: 18%;
+}
+
+button {
+    width: 10vw;
+    height: 4vh;
+    border-radius: 4px;
+} 
+
+#tester {
+    height: 5vh;
+}
+
+.valider {
+    background: rgb(0,36,36);
+    background: linear-gradient(0deg, 
+            rgba(0,36,36,1) 0%, 
+            rgba(9,121,73,1) 67%, 
+            rgba(98,255,0,1) 93%);
+    color:azure;
+    font-weight: bold;
+    border: none;
+}
+
+
+#effTest_ex1 {
+    /* border: solid black 1px; */
+    padding: 3% 4% 0 5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#effTest_2 {
+    /* border: solid black 1px; */
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#effTest_3 {
+    /* border: solid black 1px; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
